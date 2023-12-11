@@ -5,6 +5,14 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.black {
+  color: black;
+}
+
+.gold {
+  color: #FFBD59;
+}
+
 p{
   font-size: 21px;
   color: #fff;
@@ -21,6 +29,7 @@ p{
 .slogan p {
   color: white;
   font-size: xx-large;
+
 }
 
 .vertical-line {
@@ -54,9 +63,42 @@ p{
 
 .p{
   font-size: 35px;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
 }
 
 .price-list-1 {
-  margin: 0 0 2rem 0;
+  margin: 0 0 3rem 0;
+}
+
+.notes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7rem 0 7rem 0;
+}
+
+.p-notes{
+  margin: 3rem 0 0 0 ;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.extras {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem 0 7rem 0;
+}
+
+.title-extras {
+  font-size: 65px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 3rem 0;
+}
+
+.p-extras {
+  letter-spacing: 0.5rem;
+  margin: 0 0 1rem 0;
 }
