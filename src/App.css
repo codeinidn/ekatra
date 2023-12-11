@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  background-color: #FF8A00;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-size: 21px;
+  color: #fff;
+  margin: 0 0 0.5rem 0;
+}
+
+.hero{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 7rem 0 7rem 0;
+}
+
+.slogan p {
+  color: white;
+  font-size: xx-large;
+}
+
+.vertical-line {
+  border-left: 20px solid #fff; /* Color of the vertical line */
+  height: 650px; /* Height of the vertical line */
+}
+
+.engagement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7rem 21rem 7rem 5rem;
+}
+
+.engagement-price-list {
+  padding: 5rem 0 0 0;
+}
+
+.engagement-title {
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+.border-bottom {
+  border-bottom: 4px solid #fff;
+  width: 600px;
+  margin: 1rem auto 2rem auto;
+}
+
+.p{
+  font-size: 35px;
+  margin-bottom: 2rem;
+}
+
+.price-list-1 {
+  margin: 0 0 2rem 0;
+}
