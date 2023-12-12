@@ -17,7 +17,7 @@ export default function Home() {
         <div>
           <p className='engagement-title'>ENGAGEMENT</p>
           <div className='border-bottom'></div>
-          <img src='./engagement.webp' alt='engagement'/>
+          <img src='./engagement.webp' alt='engagement' className='img-engagement'/>
         </div>
         <div className='engagement-price-list'>
           <div className='price-list-1'>
@@ -41,7 +41,7 @@ export default function Home() {
         <div>
           <p className='engagement-title'>PREWEDDING</p>
           <div className='border-bottom'></div>
-          <img src='./prewedding.webp' alt='engagement'/>
+          <img src='./prewedding.webp' alt='engagement' className='img-prewedding'/>
         </div>
         <div className='engagement-price-list'>
           <div className='price-list-1'>
